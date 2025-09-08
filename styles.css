@@ -1,0 +1,121 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #151514;
+    color: #EAEAEA;
+}
+
+.site-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    font-weight: 200;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    /* Remove float */
+}
+
+.navbar ul li a {
+    display: block;
+    color: #EAEAEA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #111111;
+}
+
+.get-started-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #EAEAEA;
+    color: #151514;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+
+.get-started-btn:hover {
+    background-color: #111111;
+    color: #EAEAEA;
+}
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-buttons {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-btn {
+    background-color: #EAEAEA;
+    color: #151514;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.main-btn.secondary {
+    background-color: transparent;
+    color: #EAEAEA;
+    border: 2px solid #EAEAEA;
+}
+
+.main-btn:hover,
+.main-btn.secondary:hover {
+    background-color: #111111;
+    color: #EAEAEA;
+}
+
+h3 {
+    color: rgb(139, 139, 139);
+}
+
+.site-footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #111111;
+    color: #EAEAEA;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
