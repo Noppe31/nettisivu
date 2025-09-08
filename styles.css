@@ -28,10 +28,6 @@ body {
     justify-content: center;
 }
 
-ul li {
-    /* Remove float */
-}
-
 .navbar ul li a {
     display: block;
     color: #EAEAEA;
